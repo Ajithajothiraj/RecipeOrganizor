@@ -1,0 +1,212 @@
+
+.recipe-details-wrapper {
+  background: url('./assets/classy-restaurant.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+.recipe-container{
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+/* Title Styling */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #5a3e1b;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+.details-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details-group h4 {
+  font-size: 1.5rem;
+  color: #8b5e3b;
+  text-align: right;
+  flex: 1; 
+}
+
+.details-group p {
+  font-size: 1.2rem;
+  color: #333;
+  background: #f9f6f2;
+  padding: 12px;
+  border-radius: 8px;
+  flex: 2; 
+  margin-left: 20px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+.button1, .deleteButton {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 25px; 
+  width: 150px; 
+  text-align: center; 
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.button1 {
+  background-color: #8b5e3b; 
+  color: white;
+}
+
+.button1:hover {
+  background-color: #8b5e3b; 
+  transform: scale(1.05);
+}
+
+
+.deleteButton {
+  background-color: #8b5e3b; 
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #8b5e3b; 
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .details-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details-group h4 {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .details-group p {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.recipe-container1 {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.95); 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.recipe-container1 h4 {
+  font-size: 18px;
+  color: #5a3e1b; 
+  margin-bottom: 8px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+
+.recipe-container1 input,
+.recipe-container1 textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #c4a484; 
+  border-radius: 8px;
+  background: #f9f6f2;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+
+.recipe-container1 input:focus,
+.recipe-container1 textarea:focus {
+  border-color: #a67c52;
+  box-shadow: 0px 0px 10px rgba(166, 124, 82, 0.5);
+}
+
+
+.recipe-container1 textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+
+.saveButton {
+  background-color: #8b5e3b;
+  color: white;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.saveButton:hover {
+  background-color: #8b5e3b;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+  .recipe-container1 {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .recipe-container1 input,
+  .recipe-container1 textarea {
+    font-size: 14px;
+  }
+
+  .saveButton {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "recipe": [
+    {
+      "id": "1",
+      "title": "Biriyani",
+      "ingredients": "chicken",
+      "procedure": "Make the biryani"
+    },
+    {
+      "id": "c1a6",
+      "title": "Sambar",
+      "ingredients": "Tomoto\nonion\nPotato",
+      "procedure": "Fry all the ingrdience and then boli the all vegitable until 20 minute then the recipe is ready"
+    },
+    {
+      "id": "3875",
+      "title": "Brownie",
+      "ingredients": "Milk\nchocolate\negg",
+      "procedure": "Melt the chocloate"
+    }
+  ]
+}
